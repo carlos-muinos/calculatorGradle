@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.privalia'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12',
+                       'pl.pragmatists:JUnitParams:1.0.5',
+                       'org.mockito:mockito-all:1.9.5'
+}
